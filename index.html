@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/style/love.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/airbrake-js/1.6.2/client.min.js"></script>
 <script>var airbrake =new airbrakeJs.Client({projectId:209583,projectKey:'47345de4fa232ea9a7337433eebb12c1'
-});var ok ="那你就是我家小猪猪了~";var p ="小姐姐我关注你很久了~";var h1 ="做我女朋友好吗~";var no =["房子写你名","保大","我妈会游泳","饭我做","菜我烧","衣服我洗","家务我全包"];var data =undefined
+});var ok ="那你就是我家小可爱了~";var p ="小姐姐我关注你很久了~";var h1 ="做我女朋友好吗~";var no =["你是我的可遇不可求，可遇不可留，可遇不可有!","我希望，以后你能用我的名字拒绝所有人","愿时光能缓，愿故人不散，愿你惦念的人能和你道晚安，愿你独闯的日子里不觉得孤单","喜欢你是我一个人的事，我只会放在心里","在我流淌的时光里，只有一个你","我的酒量大概就是一打啤酒，或者半斤白酒，再或者你的四两微笑吧","白茶清欢无别事，我在等风，也等你","我妈会游泳","饭我做","菜我烧","衣服我洗","家务我全包"];var data =undefined
 if (data) {var result =JSON.parse(data);if (result.no !=undefined) {no =result.no;};if (result.ok !=undefined) {ok =unescape(result.ok);};if (result.p !=undefined) {p =unescape(result.p);};if (result.h1 !=undefined) {h1 =unescape(result.h1);};}
 </script>
 <script>(function (doc,win) {var docEl =doc.documentElement,resizeEvt ='orientationchange' in window ?'orientationchange' :'resize',recalc =function () {var clientWidth =docEl.clientWidth;if (!clientWidth) return;if (clientWidth >=750) {docEl.style.fontSize ='100px';} else {docEl.style.fontSize =100 *(clientWidth / 750) + 'px';}
@@ -33,13 +33,6 @@ if (data) {var result =JSON.parse(data);if (result.no !=undefined) {no =result.n
 <button id="ok">好</button>
 <button id="no">不好</button>
 </div>
-<footer>
-<b>©</b>
-<b>
-<a href="http://www.zkl2333.com">zkl2333</a> 2018</b>
-<br>
-<a href="http://www.miitbeian.gov.cn">浙ICP备17004361号-1</a>
-</footer>
 </body>
 <script>const clickOk =document.querySelector('#ok');const clickNo =document.querySelector('#no');clickOk.onclick =function () {alert(ok);}
 clickNo.onclick =function () {alert(unescape(getmsg(no)));}
